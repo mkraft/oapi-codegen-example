@@ -7,6 +7,8 @@ import (
 	"fmt"
 	"net/http"
 	"sync"
+
+	_ "github.com/deepmap/oapi-codegen/pkg/codegen"
 )
 
 type PetStore struct {
